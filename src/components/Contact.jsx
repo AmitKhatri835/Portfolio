@@ -84,7 +84,9 @@ export default function Contact() {
           </div>
 
           <a
-            href={`mailto:${PROFILE.email}?subject=Let's work together`}
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(PROFILE.email)}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 px-8 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:scale-105 hover:shadow-indigo-500/40"
           >
             <Send size={16} />
