@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
 import { GitHubIcon } from "./SocialIcons";
-import { PROFILE, LINKS } from "../data/resume";
+import { PROFILE, LINKS } from "../data/data";
 
 export default function Hero() {
   return (

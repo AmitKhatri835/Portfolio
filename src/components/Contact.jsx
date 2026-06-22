@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Mail, Phone, Send } from "lucide-react";
 import { GitHubIcon, LinkedInIcon } from "./SocialIcons";
 import SectionHeading from "./SectionHeading";
-import { PROFILE, LINKS } from "../data/resume";
+import { PROFILE, LINKS } from "../data/data";
 
 const contactMethods = [
   {

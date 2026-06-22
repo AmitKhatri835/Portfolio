@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
-import { TECHNICAL_SKILLS, SOFT_SKILLS } from "../data/resume";
+import { TECHNICAL_SKILLS, SOFT_SKILLS } from "../data/data";
 
 const containerVariants = {
   hidden: {},

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Mail, Phone, MapPin } from "lucide-react";
 import SectionHeading from "./SectionHeading";
-import { PROFILE } from "../data/resume";
+import { PROFILE } from "../data/data";
 
 const infoChips = [
   { icon: GraduationCap, label: `${PROFILE.school} (${PROFILE.graduationYear})` },

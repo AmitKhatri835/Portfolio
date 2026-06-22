@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { NAV_LINKS, PROFILE } from "../data/resume";
+import { NAV_LINKS, PROFILE } from "../data/data";
 import { useScrollSpy, useScrolled } from "../hooks/useScrollSpy";
 
 const SECTION_IDS = ["about", "skills", "projects", "education", "contact"];
@@ -11,7 +11,7 @@ export default function Navbar() {
   const scrolled = useScrolled();
   const activeId = useScrollSpy(SECTION_IDS);
 
-  const handleNavClick = (href) => {
+  const handleNavClick = () => {
     setMenuOpen(false);
   };
 

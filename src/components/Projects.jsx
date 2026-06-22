@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import { GitHubIcon } from "./SocialIcons";
 import SectionHeading from "./SectionHeading";
-import { PROJECTS } from "../data/resume";
+import { PROJECTS } from "../data/data";
 
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
