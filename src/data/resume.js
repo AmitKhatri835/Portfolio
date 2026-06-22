@@ -112,13 +112,6 @@ export const EDUCATION = [
     period: "2020 – 2021",
     primary: false,
   },
-  {
-    degree: "Secondary Education",
-    institution: "Govt. Sr. Secondary School, Setrawa",
-    percentage: "49.17%",
-    period: "2018 – 2019",
-    primary: false,
-  },
 ];
 
 export const NAV_LINKS = [

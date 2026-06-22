@@ -1,16 +1,9 @@
 import { ArrowUp } from "lucide-react";
-import { PROFILE } from "../data/resume";
 
 export default function Footer() {
-  const year = new Date().getFullYear();
-
   return (
     <footer className="border-t border-white/10 px-6 py-8">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 sm:flex-row">
-        <p className="text-sm text-slate-500">
-          &copy; {year} {PROFILE.name}. Built with React &amp; Tailwind CSS.
-        </p>
-
         <a
           href="#"
           className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-400 transition-all hover:border-indigo-400/40 hover:text-indigo-300"

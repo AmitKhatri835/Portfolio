@@ -7,10 +7,7 @@ export default function Education() {
   return (
     <section id="education" className="px-6 py-24">
       <div className="mx-auto max-w-3xl">
-        <SectionHeading
-          title="Education"
-          subtitle="My academic journey"
-        />
+        <SectionHeading title="Education" subtitle="My academic journey" />
 
         <div className="relative">
           <div className="absolute top-0 bottom-0 left-6 w-px bg-gradient-to-b from-indigo-500/50 via-cyan-500/30 to-transparent sm:left-8" />
